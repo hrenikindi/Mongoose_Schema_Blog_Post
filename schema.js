@@ -21,7 +21,6 @@ const postSchema = new Schema({
 });
 
 // Create indexes
-postSchema.index({ title: 1 });
 postSchema.index({ author: 1 });
 postSchema.index({ category: 1 });
 
